@@ -1,0 +1,36 @@
+
+body{
+font-family:'Times New Roman', Times, serif;
+text-align: center;
+background-color: rgb(250, 215, 215);
+}
+
+
+
+
+.image-container {
+    width: 100vw; /* O container ocupará 100% da largura da viewport (tela) */
+    height: 300px; /* Definimos uma altura fixa para o container */
+    background-size: cover; /* Faz com que a imagem cubra todo o container */
+    background-image: url(https://lh6.googleusercontent.com/Y5Tgb3gS10wQVMYpsxLcw0rQhtj9HRhxUhk7R-_kB_yfmwLazro6dbAO2e0cLYCDRbQ6luyO5GXxKPb_ui8-fm_T_gOAhCfHmyoo7LgmKm45MELqEAcBWXXV7FqfYaOotY-q05skRD9XSKnCy37locZzXR-AK0lSsx7v2hZo-PVQWbHajQOPS9s-75aK4Q);
+    background-position: center; /* Centraliza a imagem no container */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+.container {
+display: flex;
+gap: 100px;  
+justify-content: center; 
+margin: 0px;
+}
+
+.nota {
+ height:fit-content;
+ text-align:left;
+ line-height: 2px;
+}
+
+.frequencia{
+height:fit-content;
+text-align: center;
+line-height: 2px;
+}
